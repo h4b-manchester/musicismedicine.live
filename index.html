@@ -9,31 +9,28 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.min.css"
-    />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/formiojs@latest/dist/formio.full.min.css">
-    <script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.min.css" />
 </head>
 
 <body class="ph3 pv4">
     <div class="center mw9">
         <h2 class="sofar-logo mt0 center fl-ns w-100">Sofar Manchester</h2>
 
-        <main class="container w-100 center mw8-ns cb">
-            <div class="event pa4-ns mb4-ns mw7-ns center">
+        <main class="container w-100 center mw7-ns cb">
+            <div class="event pa4-ns mb4-ns mw6-ns center">
                 <span class="ttu white mb3 f6 tc db tracked">Introducing</span>
 
-                <h1 class="mt0 mim-logo center ml5-ns pa3">Music is Medicine</h1>
+                <div class="center" style="max-width: 490px">
+                    <h1 class="mt0 mim-logo center ml5-ns pa3">Music is Medicine</h1>
 
-                <div class="details w-75-ns ml5-ns mt5">
-                    <span class="prescription light-blue db tracked">Prescription 01</span>
-                    <span class="date db white tracked">
-                        <strong class="blue">Date:</strong> Wednesday 24th July
-                        <span>
-                            <span class="time db white tracked">
-                                <strong class="blue">Timings:</strong> 19:00pm - 22:00pm</span>
+                    <div class="details w-75-ns ml5-ns mt5">
+                        <span class="prescription blue db tracked">Prescription 01</span>
+                        <span class="date db white tracked">
+                            <strong class="blue">Date:</strong> Wednesday 24th July</span>
+                        <span class="time db white tracked">
+                            <strong class="blue">Timings:</strong> 19:00pm - 22:00pm</span>
+                    </div>
                 </div>
             </div>
 
@@ -48,32 +45,35 @@
                 <h3 class="ttu white mt4 mb2 f5 tc db arrow-down tracked">Apply below</h3>
 
                 <div id="formio"></div>
-
             </div>
         </main>
 
-        <div class="dn codeSnip tracked mv5">MIM0124072019</div>
+        <div class="relative">
+            <div class="pay-it-forward pa4-l relative mt4 mw6-ns pa0-ns">
+                <h4 class="db light-blue f5 tracked f7">Pay it Forward.</h4>
 
-        <div class="pay-it-forward pa4 relative mt4 mw6-ns pa0-ns">
-            <h4 class="db light-blue f5 tracked">Pay it Forward.</h4>
+                <div class="w-100 overflow-hidden">
+                    <div class="mind w-40 fl dib">Mind for better mental health</div>
 
-            <div class="w-100 overflow-hidden">
-                <div class="mind w-40 fl dib">Mind for better mental health</div>
-
-                <div class="w-50 w-40-l fl dib ml4">
-                    <p class="light-blue pa0 ma0 f5 mb3 tracked">If you like what you hear, we'd love to donate in exhcange for your ticket.</p>
-                    <p class="light-blue f5 mt3 tracked">All proceeds will be donated directly to Mind.</p>
+                    <div class="w-100 w-50-l fl dib ml4-l">
+                        <p class="light-blue pa0 ma0 f5 mb3 tracked f7">If you like what you hear, we'd love to donate in exhcange for your ticket.</p>
+                        <p class="light-blue f5 mt3 tracked f7">All proceeds will be donated directly to Mind.</p>
+                    </div>
                 </div>
+                
             </div>
+            <div class="texture-3"></div>
         </div>
-
     </div>
 
     <div class="texture-1"></div>
     <div class="texture-2"></div>
-    <div class="texture-3"></div>
     <div class="mim-side"></div>
+    <div class="dn codeSnip tracked mv5">MIM0124072019</div>
+
     <script src="js/bundle.js"></script>
+
+    <script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
     <script type="text/javascript">
         window.onload = function () {
             Formio.createForm(document.getElementById('formio'), 'https://khvkkmnltrebjwt.form.io/musicismedicineapplicationform');

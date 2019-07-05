@@ -849,25 +849,27 @@ body{background:#323068;background:-webkit-linear-gradient(90deg,#323068 0,#922c
 .container{min-width:288px}
 .arrow-down:after{content:'';display:block;margin:auto;width:50px;height:25px;background-image:url(../images/elements/arrow-down.png);background-repeat:no-repeat;background-position:bottom center}
 .texture-1,.texture-2,.texture-3,.mim-side{position:absolute;top:0;right:0;width:500px;height:460px;background-image:url(../images/elements/texture-1.png);background-repeat:no-repeat;background-position:top right;display:none}
+.texture-1{top:10px}
 .texture-2{top:375px;right:auto;left:0;width:268px;height:272px;background-image:url(../images/elements/texture-2.png);background-position:top left}
-.texture-3{top:750px;right:20rem;background-image:url(../images/elements/texture-3.png);background-position:top left;width:460px;height:210px;background-size:80%;z-index:-1}
-.mim-side{top:55rem;right:25rem;background-image:url(../images/elements/mim-side.png);background-position:top left;width:200px;height:200px;background-size:80%}
+.texture-3{top:auto;bottom:-100px;left:66.6%;background-image:url(../images/elements/texture-3.png);background-position:top left;width:460px;height:210px;z-index:-1}
+.mim-side{background-image:url(../images/elements/mim-side.png);background-position:top left;top:780px;width:310px}
 .pay-it-forward{max-width:380px}
-.codeSnip{bottom:35rem;left:22rem;color:#0a8ed1}
+.codeSnip{position:absolute;top:725px;left:250px;color:#0a8ed1;display:none}
 .sofar-logo{max-width:198px;height:44px;overflow:hidden;background-image:url(../images/logos/sofar.png);text-indent:-9999px}
 .sofar-logo{max-width:198px;height:44px;overflow:hidden;background-image:url(../images/logos/sofar.png);background-size:198px 44px;text-indent:-9999px}
-.mim-logo{width:100%;max-width:357px;height:25px;background-image:url(../images/logos/mim.png);background-size:100% auto;background-repeat:no-repeat;text-indent:-9999px}
-.mind{height:100px;overflow:hidden;background-image:url(../images/logos/mind.png);background-size:70%;background-position:center;background-repeat:no-repeat;text-indent:-9999px;position:relative}
-.formio-form{margin-top:30px;position:relative}
-.formio-form:after{content:'';display:none;margin-top:30px;width:100%;height:10px;background-image:url(../images/elements/form-stars.png);background-repeat:no-repeat}
-.formio-form input{border-radius:0;border:0;padding:20px 10px;-webkit-box-shadow:3px 3px 2px #323068;box-shadow:3px 3px 2px #323068}
-.formio-form input::-webkit-input-placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
-.formio-form input::-moz-placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
-.formio-form input:-ms-input-placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
-.formio-form input::-ms-input-placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
-.formio-form input::placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
-.formio-form button{border-radius:0;background:#0cf;color:black;border:0;padding:12px 10px;text-transform:uppercase;letter-spacing:1px;-webkit-box-shadow:3px 3px 2px #323068;box-shadow:3px 3px 2px #323068;cursor:pointer}
-.formio-form button:hover{background:-webkit-gradient(linear,left top,right top,from(#0cf),to(rgba(0,204,255,0.89)));background:-webkit-linear-gradient(left,#0cf 0,rgba(0,204,255,0.89) 100%);background:linear-gradient(90deg,#0cf 0,rgba(0,204,255,0.89) 100%);color:white;cursor:pointer}
+.mim-logo{width:100%;max-width:357px;height:25px;background-image:url(../images/logos/mim.png);background-size:100% auto;background-repeat:no-repeat;background-position:bottom center;text-indent:-9999px;padding-top:115px;position:relative}
+.mim-logo:before{content:'';position:absolute;display:block;margin:auto;width:94px;height:94px;background-image:url(../images/logos/mim-before.png);background-repeat:no-repeat;background-position:top left;z-index:1;top:0;right:0;left:0}
+.mind{height:100px;overflow:hidden;background-image:url(../images/logos/mind.png);background-size:70%;background-position:left center;background-repeat:no-repeat;text-indent:-9999px;position:relative}
+.formio-form{max-width:380px;margin:30px auto 0;position:relative}
+.formio-form:after{content:'';display:none;margin-top:30px;width:100%;height:10px;background-image:url(../images/elements/form-stars.png);background-position:bottom center;background-repeat:no-repeat}
+.formio-form .form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;border:1px solid #ccc;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);box-shadow:inset 0 1px 1px rgba(0,0,0,0.075);-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;width:100%;border:0;padding:20px 10px;margin:0 0 25px;-webkit-box-shadow:3px 3px 2px #323068;box-shadow:3px 3px 2px #323068}
+.formio-form .form-control::-webkit-input-placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
+.formio-form .form-control::-moz-placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
+.formio-form .form-control:-ms-input-placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
+.formio-form .form-control::-ms-input-placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
+.formio-form .form-control::placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
+.formio-form button{border-radius:0;width:100%;background:-webkit-gradient(linear,left top,right top,from(#0cf),to(rgba(0,204,255,0.89)));background:-webkit-linear-gradient(left,#0cf 0,rgba(0,204,255,0.89) 100%);background:linear-gradient(90deg,#0cf 0,rgba(0,204,255,0.89) 100%);color:black;border:0;padding:12px 10px;text-transform:uppercase;letter-spacing:1px;-webkit-box-shadow:3px 3px 2px #323068;box-shadow:3px 3px 2px #323068;color:white;-webkit-transition:all 500ms ease;transition:all 500ms ease;cursor:pointer}
+.formio-form button:hover{background:-webkit-gradient(linear,left top,right top,from(rgba(0,204,255,0.89)),to(#0cf));background:-webkit-linear-gradient(left,rgba(0,204,255,0.89) 0,#0cf 100%);background:linear-gradient(90deg,rgba(0,204,255,0.89) 0,#0cf 100%)}
 @media screen and (min-width:35em){.aspect-ratio-ns{height:0;position:relative}
 .aspect-ratio--16x9-ns{padding-bottom:56.25%}
 .aspect-ratio--9x16-ns{padding-bottom:177.77%}
@@ -1056,7 +1058,7 @@ body{background:#323068;background:-webkit-linear-gradient(90deg,#323068 0,#922c
 .mw4-ns{max-width:8rem}
 .mw5-ns{max-width:16rem}
 .mw6-ns{max-width:32rem}
-.mw7-ns{max-width:45rem}
+.mw7-ns{max-width:58rem}
 .mw8-ns{max-width:72rem}
 .mw9-ns{max-width:116rem}
 .mw-none-ns{max-width:none}
@@ -1292,11 +1294,8 @@ body{background:#323068;background:-webkit-linear-gradient(90deg,#323068 0,#922c
 .event{position:relative}
 .event:before,.event:after{content:'';display:block;position:absolute;top:0;right:0;width:40px;height:40px;border-top:1px solid #0a8ed1;border-right:1px solid #0a8ed1;z-index:1}
 .event:after{top:auto;right:auto;left:0;bottom:0;border-top:0 none;border-right:0 none;border-bottom:1px solid #0a8ed1;border-left:1px solid #0a8ed1}
-.mim-logo{position:relative}
-.mim-logo:before{content:'';display:block;position:absolute;right:108%;top:-999px;bottom:-999px;margin:auto;width:94px;height:94px;background-image:url(../images/logos/mim-before.png);background-repeat:no-repeat;background-position:top left;z-index:1;padding-right:55px}
-.mind{position:relative}
-.mind:before,.mind:after{content:'';display:block;position:absolute;top:0;right:0;width:40px;height:40px;border-top:1px solid #0a8ed1;border-right:1px solid #0a8ed1;z-index:1}
-.mind:after{top:auto;right:auto;left:0;bottom:0;border-top:0 none;border-right:0 none;border-bottom:1px solid #0a8ed1;border-left:1px solid #0a8ed1}
+.mim-logo{padding-top:0}
+.mim-logo:before{right:108%;left:auto;top:-999px;bottom:-999px;padding-right:20px}
 }@media screen and (min-width:35em) and (max-width:60em){.aspect-ratio-m{height:0;position:relative}
 .aspect-ratio--16x9-m{padding-bottom:56.25%}
 .aspect-ratio--9x16-m{padding-bottom:177.77%}
@@ -2139,6 +2138,9 @@ body{background:#323068;background:-webkit-linear-gradient(90deg,#323068 0,#922c
 .v-mid-l{vertical-align:middle}
 .v-top-l{vertical-align:top}
 .v-btm-l{vertical-align:bottom}
+.mind{position:relative;background-position:center}
+.mind:before,.mind:after{content:'';display:block;position:absolute;top:0;right:0;width:40px;height:40px;border-top:1px solid #0a8ed1;border-right:1px solid #0a8ed1;z-index:1}
+.mind:after{top:auto;right:auto;left:0;bottom:0;border-top:0 none;border-right:0 none;border-bottom:1px solid #0a8ed1;border-left:1px solid #0a8ed1}
 }@media(min-width:1024px){.formio-form:after{display:block}
 }@media(min-width:1100px){.texture-1,.texture-2,.texture-3,.mim-side{display:block}
 .codeSnip{display:block}
