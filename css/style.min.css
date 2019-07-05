@@ -862,13 +862,13 @@ body{background:#323068;background:-webkit-linear-gradient(90deg,#323068 0,#922c
 .mind{height:100px;overflow:hidden;background-image:url(../images/logos/mind.png);background-size:70%;background-position:left center;background-repeat:no-repeat;text-indent:-9999px;position:relative}
 .formio-form{max-width:380px;margin:30px auto 0;position:relative}
 .formio-form:after{content:'';display:none;margin-top:30px;width:100%;height:10px;background-image:url(../images/elements/form-stars.png);background-position:bottom center;background-repeat:no-repeat}
-.formio-form .form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;font-family:'Space Mono',monospace;width:100%;border:0;padding:20px 10px;margin:0 0 25px;-webkit-box-shadow:3px 3px 2px #323068;box-shadow:3px 3px 2px #323068}
-.formio-form .form-control::-webkit-input-placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
-.formio-form .form-control::-moz-placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
-.formio-form .form-control:-ms-input-placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
-.formio-form .form-control::-ms-input-placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
-.formio-form .form-control::placeholder{color:black;opacity:1;text-transform:uppercase;letter-spacing:1px}
-.formio-form button{border-radius:0;width:100%;background:-webkit-gradient(linear,left top,right top,from(#0cf),to(rgba(0,204,255,0.89)));background:-webkit-linear-gradient(left,#0cf 0,rgba(0,204,255,0.89) 100%);background:linear-gradient(90deg,#0cf 0,rgba(0,204,255,0.89) 100%);color:black;border:0;padding:12px 10px;text-transform:uppercase;letter-spacing:1px;-webkit-box-shadow:3px 3px 2px #323068;box-shadow:3px 3px 2px #323068;color:white;-webkit-transition:all 500ms ease;transition:all 500ms ease;cursor:pointer;font-family:'Space Mono',monospace}
+.formio-form .form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;font-family:'Space Mono',monospace;width:100%;border:0;padding:20px 10px;margin:0 0 25px;color:#52306e}
+.formio-form .form-control::-webkit-input-placeholder{color:#52306e;font-family:'Space Mono',monospace;opacity:1;text-transform:uppercase;letter-spacing:1px}
+.formio-form .form-control::-moz-placeholder{color:#52306e;font-family:'Space Mono',monospace;opacity:1;text-transform:uppercase;letter-spacing:1px}
+.formio-form .form-control:-ms-input-placeholder{color:#52306e;font-family:'Space Mono',monospace;opacity:1;text-transform:uppercase;letter-spacing:1px}
+.formio-form .form-control::-ms-input-placeholder{color:#52306e;font-family:'Space Mono',monospace;opacity:1;text-transform:uppercase;letter-spacing:1px}
+.formio-form .form-control::placeholder{color:#52306e;font-family:'Space Mono',monospace;opacity:1;text-transform:uppercase;letter-spacing:1px}
+.formio-form button{border-radius:0;width:100%;background:-webkit-gradient(linear,left top,right top,from(#0cf),to(rgba(0,204,255,0.89)));background:-webkit-linear-gradient(left,#0cf 0,rgba(0,204,255,0.89) 100%);background:linear-gradient(90deg,#0cf 0,rgba(0,204,255,0.89) 100%);color:black;border:0;padding:12px 10px;text-transform:uppercase;letter-spacing:1px;color:white;-webkit-transition:all 500ms ease;transition:all 500ms ease;cursor:pointer;font-family:'Space Mono',monospace}
 .formio-form button:hover{background:-webkit-gradient(linear,left top,right top,from(rgba(0,204,255,0.89)),to(#0cf));background:-webkit-linear-gradient(left,rgba(0,204,255,0.89) 0,#0cf 100%);background:linear-gradient(90deg,rgba(0,204,255,0.89) 0,#0cf 100%)}
 @media screen and (min-width:35em){.aspect-ratio-ns{height:0;position:relative}
 .aspect-ratio--16x9-ns{padding-bottom:56.25%}
