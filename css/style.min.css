@@ -851,7 +851,7 @@ body{background:#323068;background:-webkit-linear-gradient(90deg,#323068 0,#922c
 .texture-1,.texture-2,.texture-3,.mim-side{position:absolute;top:0;right:0;width:500px;height:460px;background-image:url(../images/elements/texture-1.png);background-repeat:no-repeat;background-position:top right;display:none}
 .texture-1{top:10px}
 .texture-2{top:375px;right:auto;left:0;width:268px;height:272px;background-image:url(../images/elements/texture-2.png);background-position:top left}
-.texture-3{top:auto;bottom:-100px;left:66.6%;background-image:url(../images/elements/texture-3.png);background-position:top left;width:460px;height:210px;z-index:-1}
+.texture-3{top:auto;bottom:-100px;right:0;background-image:url(../images/elements/texture-3.png);background-position:top left;width:460px;height:210px;z-index:-1}
 .mim-side{background-image:url(../images/elements/mim-side.png);background-position:top left;top:780px;width:310px}
 .pay-it-forward{max-width:380px}
 .codeSnip{position:absolute;top:725px;left:250px;color:#0a8ed1;display:none}
