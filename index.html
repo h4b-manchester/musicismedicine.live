@@ -77,7 +77,14 @@
     <script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
     <script type="text/javascript">
         window.onload = function () {
-            Formio.createForm(document.getElementById('formio'), 'https://khvkkmnltrebjwt.form.io/musicismedicineapplicationform');
+            Formio.createForm(document.getElementById('formio'), 'https://khvkkmnltrebjwt.form.io/musicismedicineapplicationform', {
+                language: 'sp',
+                i18n: {
+                    sp: {
+                        'complete': 'Be patient. We’ll let you know.'
+                    }
+                }
+            });
         };
     </script>
 </body>
