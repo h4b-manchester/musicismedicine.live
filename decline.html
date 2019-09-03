@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,8 @@
     <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.min.css" />
 </head>
-<body class="ph3 pv4">
+
+<body class="ph3 pv4 declined">
     <div class="center mw9">
         <h2 class="sofar-logo mt0 center fl-ns w-100 mt4-l">Sofar Manchester</h2>
 
@@ -24,7 +26,8 @@
 
                     <div class="details w-75-ns ml5-ns mt5">
                         <span class="prescription blue db tracked">
-                            <strong>Prescription 02</strong></span>
+                            <strong>Prescription 02</strong>
+                        </span>
                         <span class="date db white tracked">
                             <strong class="blue">Date:</strong> Wednesday 2nd October</span>
                         <span class="time db white tracked">
@@ -34,16 +37,7 @@
             </div>
 
             <div class="introduction white tc-ns pt1-ns mv5">
-                <p class="tracked">Sofar Sounds is a thousand-strong community of artists, hosts, fans, travellers, and more, staging hundreds
-                    of hush-hush, intimate events every month, across 400+ cities around the world. They transform an everyday
-                    space – like a living room or office – and turn it into a captivating venue for secret, live shows, creating
-                    an immersive experience that brings guests and artists closer together.</p>
-            </div>
-
-            <div class="application mw6-ns center">
-                <p class="ttu white mt4 mb2 f5 tc db arrow-down tracked">Apply below</p>
-
-                <div id="formio"></div>
+                <p class="tracked">Declined.</p>
             </div>
         </main>
 
@@ -59,7 +53,7 @@
                         <p class="light-blue f5 mt3 tracked f7">All proceeds will be donated directly to Mind.</p>
                     </div>
                 </div>
-                
+
             </div>
             <div class="texture-3"></div>
         </div>
@@ -71,20 +65,6 @@
     <div class="dn codeSnip tracked mv5">MIM0202102019</div>
 
     <script src="js/bundle.js"></script>
-
-    <script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
-    <script type="text/javascript">
-        window.onload = function () {
-            Formio.createForm(document.getElementById('formio'), 'https://khvkkmnltrebjwt.form.io/musicismedicineapplicationform', {
-                language: 'sp',
-                i18n: {
-                    sp: {
-                        'complete': 'Be patient. We’ll let you know.'
-                    }
-                }
-            });
-        };
-    </script>
 </body>
 
 </html>
