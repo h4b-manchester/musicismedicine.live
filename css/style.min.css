@@ -844,6 +844,9 @@ code,.code{font-family:Consolas,monaco,monospace}
 .nested-img img{width:100%;max-width:100%;display:block}
 .nested-links a{color:#0a8ed1;-webkit-transition:color .15s ease-in;transition:color .15s ease-in}
 .nested-links a:hover,.nested-links a:focus{color:#68a8de;-webkit-transition:color .15s ease-in;transition:color .15s ease-in}
+.bonbonFont{font-family:'Bonbon',cursive}
+.oleoFont{font-family:'Oleo Script',cursive}
+.font-superlarge{font-size:120px}
 *{-webkit-box-sizing:border-box;box-sizing:border-box}
 body{background:#323068;background:-webkit-linear-gradient(90deg,#323068 0,#922c7d 100%);background:-webkit-gradient(linear,left top,right top,from(#323068),to(#922c7d));background:-webkit-linear-gradient(left,#323068 0,#922c7d 100%);background:linear-gradient(90deg,#323068 0,#922c7d 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#323068",endColorstr="#831f7d",GradientType=1);font-family:'Space Mono',monospace}
 .container{min-width:288px}
