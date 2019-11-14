@@ -861,6 +861,7 @@ body{background:#323068;background:-webkit-linear-gradient(90deg,#323068 0,#922c
 .mim-side{background-image:url(../images/elements/mim-side.png);background-position:top left;top:780px;width:310px}
 .pay-it-forward{max-width:380px}
 .codeSnip{position:absolute;top:725px;left:250px;color:#0a8ed1;display:none}
+.introduction p{max-width:580px;margin:0 auto}
 .sofar-logo{max-width:198px;height:44px;overflow:hidden;background-image:url(../images/logos/sofar.png);text-indent:-9999px}
 .sofar-logo{max-width:198px;height:44px;overflow:hidden;background-image:url(../images/logos/sofar.png);background-size:198px 44px;text-indent:-9999px}
 .mim-logo{width:100%;max-width:357px;height:25px;background-image:url(../images/logos/mim.png);background-size:100% auto;background-repeat:no-repeat;background-position:bottom center;text-indent:-9999px;padding-top:115px;position:relative}
