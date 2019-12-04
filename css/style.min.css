@@ -867,7 +867,7 @@ body{background:#323068;background:-webkit-linear-gradient(90deg,#323068 0,#922c
 .sofar-logo{max-width:198px;height:44px;overflow:hidden;background-image:url(../images/logos/sofar.png);background-size:198px 44px;text-indent:-9999px}
 .mim-logo{width:100%;max-width:357px;height:25px;background-image:url(../images/logos/mim.png);background-size:100% auto;background-repeat:no-repeat;background-position:bottom center;text-indent:-9999px;padding-top:115px;position:relative}
 .mim-logo:before{content:'';position:absolute;display:block;margin:auto;width:94px;height:94px;background-image:url(../images/logos/mim-before.png);background-repeat:no-repeat;background-position:top left;z-index:1;top:0;right:0;left:0}
-.mind{height:100px;overflow:hidden;background-image:url(../images/logos/mind.png);background-size:70%;background-position:left center;background-repeat:no-repeat;text-indent:-9999px;position:relative}
+.mind{height:100px;overflow:hidden;background-image:url(../images/logos/mind.png);background-size:90%;background-position:left center;background-repeat:no-repeat;text-indent:-9999px;position:relative}
 .formio-form{max-width:380px;margin:30px auto 0;position:relative}
 .formio-form:after{content:'';display:none;margin-top:30px;width:100%;height:10px;background-image:url(../images/elements/form-stars.png);background-position:bottom center;background-repeat:no-repeat}
 .formio-form .form-control{display:block;width:100%;height:34px;padding:6px 12px;font-size:14px;line-height:1.42857143;color:#555;background-color:#fff;background-image:none;font-family:'Space Mono',monospace;width:100%;border:0;padding:20px 10px;margin:0 0 10px;color:#52306e}
